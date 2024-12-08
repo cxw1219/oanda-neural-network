@@ -1,0 +1,15 @@
+[MODEL]
+buffer_size = 60
+learning_rate = 0.001
+update_interval = 5
+batch_size = 64
+
+[DATA]
+historical_data_path = path/to/your/data
+data_frequency = 10s
+training_size = 100000
+
+[OANDA]
+account_id = your-account-id
+access_token = your-access-token
+environment = practice
